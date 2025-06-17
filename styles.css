@@ -1,9 +1,9 @@
-@font-face { /* Jupiter Mission Slice Font */
+@font-face { /* jupiter mission slice font */
   font-family: 'jupiter';
   src: url(fonts/JupiterMissionSlice.ttf);
 }
 
-@font-face { /* Tecnica Font */
+@font-face { /* tecnica Font */
   font-family: 'tecnica';
   src: url(fonts/Tecnica\ Bold\ W01\ Regular.ttf);
 }
@@ -22,11 +22,11 @@
   background-color: #050309;
 }
 
-h1, p {
+h1, p { 
   color: white;
 }
 
-.center {
+.center { /* center text */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -39,7 +39,7 @@ h1, p {
 
 
 
-#hero_trailer {
+#hero_trailer { /* trailer vid from main page */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -61,7 +61,7 @@ h1, p {
   z-index: 0;
 }
 
-.hero {
+.hero { /* hero image css for other pages */
   position: fixed;
   top: 0;
   left: 0;
@@ -71,7 +71,7 @@ h1, p {
   pointer-events: none;
 }
 
-.hero_overlay {
+.hero_overlay { /* black overlay for hero */
   position: fixed;
   top: 0;
   left: 0;
@@ -83,18 +83,19 @@ h1, p {
   z-index: 1;
 }
 
-#main_logo {
+#main_logo { /* main logo css */
   position: fixed;
   top: 40%;
   left: 50%;
   transform: translateX(-50%);
   width: 700px; 
-  z-index: 11;
+  z-index: 2;
+  pointer-events: none;
 }
 
 
 
-.content_shadow {
+.content_shadow { /* shadow for content */
   position: absolute;
   bottom: 0;
   left: 0;
@@ -114,10 +115,9 @@ h1, p {
 
 
 
-.navbar {
+.navbar { /* navbar */
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.3);
   position: relative;
   display: flex;
   align-items: center;
@@ -125,7 +125,7 @@ h1, p {
   z-index: 10;
 }
 
-nav {
+nav { /* navbar gradient */
   position: fixed;
   display: flex;
   justify-content: center;
@@ -143,7 +143,7 @@ nav {
   );
   }
 
-nav::after {
+nav::after { /* navbar gradient 2 */
   content: "";
   position: absolute;
   top: 90px;
@@ -159,19 +159,22 @@ nav::after {
   );
 }
 
-nav ul li {
+nav ul li { /* nav text horizontal display */
   list-style: none;
   display: inline-block;
   margin-left: 100px;
 }
 
-nav ul li a {
+nav ul li a { /* nav text css */
   text-decoration: none;
   color: #fff;
   font-size: 16px;
+  list-style: none;
+  display: inline-block;
+  margin-left: 100px;
 }
 
-nav ul li a.active {
+nav ul li a.active { /* nav active text css */
   color: #ea9f13;
   font-size: 17px;
   font-weight: bold;
@@ -179,33 +182,33 @@ nav ul li a.active {
 
 
 
-.jupiter {
+.jupiter { /* assigned jupiter font class */
   font-family: 'Jupiter';
 }
 
-.tecnica {
+.tecnica { /* assigned tecnica font class */
   font-family: 'Tecnica';
 }
 
 
 
-#nav_logo {
+#nav_logo { /* navbar page logo */
   width: 200px;
 }
 
-#title_upt {
+#title_upt { /* update page title */
   top: 560px;
   font-size: 35px;
   z-index: 15;
 }
 
-#title_tut {
+#title_tut { /* tutorial page title */
   top: 360px;
   font-size: 32px;
   z-index: 15;
 }
 
-#title_down {
+#title_down { /* download page title */
   top: 560px;
   font-size: 25px;
   z-index: 15;
