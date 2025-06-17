@@ -171,7 +171,6 @@ nav ul li a { /* nav text css */
   font-size: 16px;
   list-style: none;
   display: inline-block;
-  margin-left: 100px;
 }
 
 nav ul li a.active { /* nav active text css */
