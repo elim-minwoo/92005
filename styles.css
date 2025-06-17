@@ -1,22 +1,22 @@
-@font-face {
+@font-face { /* Jupiter Mission Slice Font */
   font-family: 'jupiter';
   src: url(fonts/JupiterMissionSlice.ttf);
 }
 
-@font-face {
+@font-face { /* Tecnica Font */
   font-family: 'tecnica';
   src: url(fonts/Tecnica\ Bold\ W01\ Regular.ttf);
 }
 
 
 
-* {
+* { /* universal css */
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-.navy_bg {
+.navy_bg { /* navy bg for content */
   position: relative;
   z-index: 2;
   background-color: #050309;
