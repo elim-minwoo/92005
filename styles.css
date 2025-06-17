@@ -17,11 +17,9 @@
 main {
   position: relative;
   z-index: 2;
-}
-
-body {
   background-color: #050309;
 }
+
 h1, p {
   color: white;
 }
