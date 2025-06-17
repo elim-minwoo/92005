@@ -24,7 +24,7 @@ h1, p {
   color: white;
 }
 
-#bg_trailer {
+#hero_trailer {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -36,7 +36,7 @@ h1, p {
   pointer-events: none;
 }
 
-.bg_container {
+.hero_container {
   position: fixed;
   top: 0;
   left: 0;
@@ -46,7 +46,7 @@ h1, p {
   z-index: 0;
 }
 
-.bg {
+.hero {
   position: fixed;
   top: 0;
   left: 0;
@@ -56,7 +56,7 @@ h1, p {
   pointer-events: none;
 }
 
-.bg_overlay {
+.hero_overlay {
   position: fixed;
   top: 0;
   left: 0;
