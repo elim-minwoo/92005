@@ -21,6 +21,18 @@ h1, p {
   color: white;
 }
 
+#bg_trailer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 177.77%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  border: none;
+  z-index: 0;
+  pointer-events: none;
+}
+
 .bg_container {
   position: fixed;
   top: 0;
