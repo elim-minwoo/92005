@@ -8,6 +8,8 @@
   src: url(fonts/Tecnica\ Bold\ W01\ Regular.ttf);
 }
 
+
+
 * {
   margin: 0px;
   padding: 0px;
@@ -23,6 +25,19 @@
 h1, p {
   color: white;
 }
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 11;
+}
+
+
 
 #hero_trailer {
   position: absolute;
@@ -68,6 +83,17 @@ h1, p {
   z-index: 1;
 }
 
+#main_logo {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px; 
+  z-index: 11;
+}
+
+
+
 .content_shadow {
   position: absolute;
   bottom: 0;
@@ -85,6 +111,8 @@ h1, p {
   );
   z-index: 3;
 }
+
+
 
 .navbar {
   width: 100%;
@@ -149,11 +177,7 @@ nav ul li a.active {
   font-weight: bold;
 }
 
-.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 .jupiter {
   font-family: 'Jupiter';
@@ -163,16 +187,26 @@ nav ul li a.active {
   font-family: 'Tecnica';
 }
 
-#main_logo {
-  position: fixed;
-  top: 40%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 700px; 
-  z-index: 11;
-  pointer-events: none;
-}
+
 
 #nav_logo {
   width: 200px;
+}
+
+#title_upt {
+  top: 560px;
+  font-size: 35px;
+  z-index: 15;
+}
+
+#title_tut {
+  top: 360px;
+  font-size: 32px;
+  z-index: 15;
+}
+
+#title_down {
+  top: 560px;
+  font-size: 25px;
+  z-index: 15;
 }
