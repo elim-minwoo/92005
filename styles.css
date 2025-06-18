@@ -75,6 +75,12 @@ h1, p {
   z-index: 11;
 }
 
+.gif {
+  top
+  object-fit: cover;
+  object-position: center;
+}
+
 
 
 .hero_container {
