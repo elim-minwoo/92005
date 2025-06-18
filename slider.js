@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const slides = document.getElementById('slides');
-  const slideWidth = 600;
+  const slideWidth = 900;
   let index = 1;
   let isMoving = false;
 

@@ -8,8 +8,8 @@
 }
 
 .slider { /* slider css */
-  width: 600px;
-  height: 400px;
+  width: 900px;
+  height: 600px;
   overflow: hidden;
 }     
 
@@ -19,8 +19,8 @@
 }
 
 .slides img { /* actual image css */
-  width: 600px;
-  height: 400px;
+  width: 900px;
+  height: 600px;
   object-fit: contain;
   flex-shrink: 0;
 }
