@@ -34,8 +34,6 @@
   color: #ea9f13;
 }
 
-
-
 h1 {
   font-size: 30px;
 }
@@ -52,9 +50,17 @@ h1, p {
   margin-right: auto;
 }
 
+.content {
+  margin-left: 120px;
+  margin-right: 120px;
+  text-wrap: ;
+}
+
 .left {
-  display: flex;
-  justify-content: flex-end;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: left;
 }
 
@@ -73,12 +79,6 @@ h1, p {
   align-items: center;
   text-align: center;
   z-index: 11;
-}
-
-.gif {
-  top
-  object-fit: cover;
-  object-position: center;
 }
 
 
@@ -240,7 +240,7 @@ nav ul li a.active { /* nav active text css */
 }
 
 #title_down { /* download page title */
-  top: 450px;
+  top: 470px;
   font-size: 22px;
   z-index: 15;
 }
