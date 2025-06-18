@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", () => { // load script only when w
   slides.style.transform = `translateX(-${slideWidth * index}px)`; // set initial position
 
   function moveSlide(toIndex) { // function to move slide to another
+    if (isMoving) return; // fix spamming click freezing slider
+    isMoving = true;
     slides.style.transition = 'transform 0.5s ease'; // css transition animation
     slides.style.transform = `translateX(-${slideWidth * toIndex}px)`; // move slider
     index = toIndex;
@@ -49,5 +51,6 @@ document.addEventListener("DOMContentLoaded", () => { // load script only when w
       slides.style.transform = `translateX(-${slideWidth * index}px)`;
     }
 
+    isMoving = false; // slide animation has finished, allows new slides to move again
   });
 });
