@@ -31,3 +31,7 @@ function moveSlide(toIndex) { // function to move slide to another
     slides.style.transform = `translateX(-${slideWidth * toIndex}px)`; // move slider container horizontally
     index = toIndex; // update slide index counter to new index
   }
+
+document.getElementById('nextBtn').onclick = () => moveSlide(index + 1);
+document.getElementById('prevBtn').onclick = () => moveSlide(index - 1);
+
