@@ -36,3 +36,24 @@
   float: left;
   height: auto;
 }
+
+.right_layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  margin: 0 110px;
+  padding: 0 20px;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.right_layout h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.right_layout.img {
+  float: right;
+  height: auto;
+}
+
