@@ -1,3 +1,4 @@
+
 @font-face { /* jupiter mission slice font */
   font-family: 'jupiter';
   src: url(fonts/JupiterMissionSlice.ttf);
@@ -14,6 +15,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  text-shadow: 0 0 10px #000;
 }
 
 .navy_bg { /* navy bg for content */
@@ -27,6 +29,12 @@
   z-index: 2;
   background-color: #131317;
 }
+
+.orange {
+  color: #ea9f13;
+}
+
+
 
 h1, p { 
   color: white;
