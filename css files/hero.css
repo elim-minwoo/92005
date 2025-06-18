@@ -1,0 +1,62 @@
+
+/* === hero css ===*/
+
+.hero_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.hero { /* hero image css for other pages */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.hero_overlay { /* black overlay for hero */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+  z-index: 1;
+}
+
+#main_logo { /* main logo css */
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px; 
+  z-index: 2;
+  pointer-events: none;
+}
+
+#title_upt { /* update page title */
+  top: 61vh;
+  font-size: 28px;
+  z-index: 15;
+}
+
+#title_tut { /* tutorial page title */
+  top: 38vh;
+  font-size: 30px;
+  z-index: 15;
+}
+
+#title_down { /* download page title */
+  top: 64vh;
+  font-size: 22px;
+  z-index: 15;
+}

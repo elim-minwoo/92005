@@ -1,0 +1,23 @@
+
+/* === universal css ===*/
+
+* { /* universal css */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-shadow: 0 0 10px #000;
+}
+
+h1, h2, h3, p { 
+  color: white;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Tecnica';
+  line-height: 1.9;
+  font-size: 18px;
+}

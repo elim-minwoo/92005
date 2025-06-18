@@ -1,0 +1,38 @@
+
+/* === layout css ===*/
+
+.center { /* center text */
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.title_center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  z-index: 11;
+}
+
+.left_layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  margin: 0 120px;
+  padding-left: 0 20px;
+  text-align: left;
+}
+
+.left_layout h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left_layout.img {
+  float: left;
+  height: auto;
+}

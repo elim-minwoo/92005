@@ -1,0 +1,25 @@
+
+/* === font css ===*/
+
+@font-face { /* jupiter mission slice font */
+  font-family: 'jupiter';
+  src: url(fonts/JupiterMissionSlice.ttf);
+}
+
+@font-face { /* tecnica Font */
+  font-family: 'tecnica';
+  src: url(fonts/Tecnica\ Bold\ W01\ Regular.ttf);
+}
+
+/*=== class assigned fonts ===*/
+.jupiter { /* assigned jupiter font class */
+  font-family: 'Jupiter';
+}
+
+.tecnica { /* assigned tecnica font class */
+  font-family: 'Tecnica';
+}
+
+.orange {
+  color: #ea9f13;
+}
