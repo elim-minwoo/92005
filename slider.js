@@ -35,3 +35,19 @@ function moveSlide(toIndex) { // function to move slide to another
 document.getElementById('nextBtn').onclick = () => moveSlide(index + 1);
 document.getElementById('prevBtn').onclick = () => moveSlide(index - 1);
 
+slides.addEventListener('transitionend', () => { // wait till transition finishes
+  const total = slides.children.length - 2;
+
+  if (index === 0) { // check if index moved left past last slide clone
+    slides.style.transition = 'none'; // temporarily turn off css transition
+    index = total; // update to last real slide	
+    slides.style.transform = `translateX(-${slideWidth * index}px)`; // move slide container to last real slide
+  }
+
+  if (index === total + 1) { // check if index moved right past last slide clone
+    slides.style.transition = 'none';
+    index = 1; // update to first real slide
+    slides.style.transform = `translateX(-${slideWidth * index}px)`; // move slide container to first real slide
+  }
+
+});
