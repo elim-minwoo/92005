@@ -1,4 +1,5 @@
 
+/* === font additions ===*/
 @font-face { /* jupiter mission slice font */
   font-family: 'jupiter';
   src: url(fonts/JupiterMissionSlice.ttf);
@@ -11,6 +12,7 @@
 
 
 
+/* === universaly used css ===*/
 * { /* universal css */
   margin: 0px;
   padding: 0px;
@@ -18,6 +20,25 @@
   text-shadow: 0 0 10px #000;
 }
 
+h1, h2, h3, p { 
+  color: white;
+}
+
+.orange {
+  color: #ea9f13;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Tecnica';
+  line-height: 1.9;
+  font-size: 18px;
+}
+
+/* === content backgrounds ===*/
 .navy_bg { /* navy bg for content */
   position: relative;
   z-index: 2;
@@ -30,44 +51,11 @@
   background-color: #131317;
 }
 
-.orange {
-  color: #ea9f13;
-}
-
-h1 {
-  font-size: 30px;
-}
-
-h1, p { 
-  color: white;
-}
-
+/* === layout classes ===*/
 .center { /* center text */
   margin: auto;
   width: 50%;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.content {
-  margin-left: 120px;
-  margin-right: 120px;
-  text-wrap: ;
-}
-
-.left {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 20px;
-  padding-right: 20px;
-  text-align: left;
-}
-
-.right {
-  display: flex;
-  justify-content: flex-end;
-  text-align: right;
 }
 
 .title_center {
@@ -81,8 +69,34 @@ h1, p {
   z-index: 11;
 }
 
+.left_layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  margin: 0 120px;
+  padding-left: 0 20px;
+  text-align: left;
+}
+
+.left_layout h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left_layout.img {
+  height: auto;
+  object-fit: contain;
+}
+
+.left_layout > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 
 
+
+/* === hero css ===*/
 .hero_container {
   position: fixed;
   top: 0;
@@ -127,26 +141,7 @@ h1, p {
 
 
 
-.content_shadow { /* shadow for content */
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 40vh;
-  pointer-events: none;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0) 0%,
-    rgba(0, 0, 0, 0.3) 30%,
-    rgba(0, 0, 0, 0.5) 50%,
-    rgba(0, 0, 0, 0.7) 70%,
-    rgba(0, 0, 0, 0.9) 100%
-  );
-  z-index: 3;
-}
-
-
-
+/* === navbar and gradient css ===*/
 .navbar { /* navbar */
   width: 100%;
   height: 100vh;
@@ -211,8 +206,27 @@ nav ul li a.active { /* nav active text css */
   font-weight: bold;
 }
 
+.content_shadow { /* shadow for content */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40vh;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.3) 30%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.7) 70%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+  z-index: 3;
+}
 
 
+
+/*=== class assigned fonts ===*/
 .jupiter { /* assigned jupiter font class */
   font-family: 'Jupiter';
 }
@@ -223,24 +237,25 @@ nav ul li a.active { /* nav active text css */
 
 
 
+/* === title page id ===*/
 #nav_logo { /* navbar page logo */
   width: 200px;
 }
 
 #title_upt { /* update page title */
-  top: 460px;
+  top: 61vh;
   font-size: 28px;
   z-index: 15;
 }
 
 #title_tut { /* tutorial page title */
-  top: 270px;
-  font-size: 28px;
+  top: 38vh;
+  font-size: 30px;
   z-index: 15;
 }
 
 #title_down { /* download page title */
-  top: 470px;
+  top: 64vh;
   font-size: 22px;
   z-index: 15;
 }
