@@ -59,6 +59,10 @@ nav ul li a { /* nav text css */
   display: inline-block;
 }
 
+nav ul li a:hover {
+  color: #ea9f13;
+}
+
 nav ul li a.active { /* nav active text css */
   color: #ea9f13;
   font-size: 17px;
