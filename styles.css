@@ -22,11 +22,25 @@
   background-color: #050309;
 }
 
+.gray_bg {
+  position: relative;
+  z-index: 2;
+  background-color: #131317;
+}
+
 h1, p { 
   color: white;
 }
 
 .center { /* center text */
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title_center {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -184,19 +198,19 @@ nav ul li a.active { /* nav active text css */
 }
 
 #title_upt { /* update page title */
-  top: 560px;
-  font-size: 35px;
+  top: 460px;
+  font-size: 28px;
   z-index: 15;
 }
 
 #title_tut { /* tutorial page title */
-  top: 360px;
-  font-size: 32px;
+  top: 270px;
+  font-size: 28px;
   z-index: 15;
 }
 
 #title_down { /* download page title */
-  top: 560px;
-  font-size: 25px;
+  top: 470px;
+  font-size: 22px;
   z-index: 15;
 }
