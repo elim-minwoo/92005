@@ -1,9 +1,9 @@
 
 /* === font css ===*/
 
-@font-face { /* jupiter mission slice font */
-  font-family: 'jupiter';
-  src: url(fonts/JupiterMissionSlice.ttf);
+@font-face { /* recepts nf font */
+  font-family: 'recept';
+  src: url(fonts/Recepts\ NF\ W01\ Regular.ttf);
 }
 
 @font-face { /* tecnica Font */
@@ -12,12 +12,12 @@
 }
 
 /*=== class assigned fonts ===*/
-.jupiter { /* assigned jupiter font class */
-  font-family: 'Jupiter';
+.recept { /* assigned recepts font class */
+  font-family: 'recept';
 }
 
 .tecnica { /* assigned tecnica font class */
-  font-family: 'Tecnica';
+  font-family: 'tecnica';
 }
 
 .orange {

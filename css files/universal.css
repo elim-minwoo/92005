@@ -16,8 +16,13 @@ h1 {
   font-size: 30px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 p {
   font-family: 'Tecnica';
   line-height: 1.9;
-  font-size: 18px;
+  font-size: 20px;
+  font-display: justify;
 }
