@@ -36,6 +36,10 @@
 
 
 
+h1 {
+  font-size: 30px;
+}
+
 h1, p { 
   color: white;
 }
@@ -46,6 +50,18 @@ h1, p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-end;
+  text-align: left;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
 }
 
 .title_center {
@@ -218,7 +234,7 @@ nav ul li a.active { /* nav active text css */
 }
 
 #title_down { /* download page title */
-  top: 470px;
+  top: 450px;
   font-size: 22px;
   z-index: 15;
 }
