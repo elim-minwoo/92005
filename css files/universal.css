@@ -23,8 +23,8 @@ h2 {
 p {
   font-family: 'Tecnica';
   line-height: 1.9;
-  font-size: 16px;
-  font-display: justify;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .img_background {

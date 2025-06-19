@@ -57,3 +57,8 @@
   height: auto;
 }
 
+.left_layout, .right_layout{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
