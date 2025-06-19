@@ -44,19 +44,19 @@
 }
 
 #title_upt { /* update page title */
-  top: 66vh;
-  font-size: 20px;
+  top: 62vh;
+  font-size: 25px;
   z-index: 15;
 }
 
 #title_tut { /* tutorial page title */
   top: 38vh;
-  font-size: 25px;
+  font-size: 28px;
   z-index: 15;
 }
 
 #title_down { /* download page title */
-  top: 69vh;
+  top: 64vh;
   font-size: 18px;
   z-index: 15;
 }

@@ -37,4 +37,5 @@ button { /* button for slider */
 
 button:hover { /* hover interaction */
   color: #fff;
+  text-shadow: 0 0 5px #fff;
 }

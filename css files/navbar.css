@@ -61,6 +61,7 @@ nav ul li a { /* nav text css */
 
 nav ul li a:hover {
   color: #ea9f13;
+  text-shadow: 0 0 20px #fff;
 }
 
 nav ul li a.active { /* nav active text css */
