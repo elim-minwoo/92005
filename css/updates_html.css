@@ -51,8 +51,9 @@ p {
 .visual {
     display: flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 60px;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .visual > div {
@@ -60,9 +61,10 @@ p {
 }
 
 .visual .video {
-    width: 30%;
-    height: auto;
+    aspect-ratio: 16 / 9;
+    width: 31%; /* prevent low res thumbnail  */
     border-radius: 8px;
     flex-shrink: 0;
+    overflow: hidden;
     margin-left: 0;
 }
