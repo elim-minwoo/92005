@@ -18,11 +18,11 @@
   z-index: 11;
 }
 
-.left_layout {
+.left_layout { /* left layout */
   display: flex;
   align-items: flex-start;
   gap: 100px;
-  margin: 0 150px;
+  margin: 0 200px;
   padding: 0 20px;
   text-align: left;
 }
@@ -37,11 +37,11 @@
   height: auto;
 }
 
-.right_layout {
+.right_layout { /* right layout */
   display: flex;
   align-items: flex-start;
   gap: 100px;
-  margin: 0 150px;
+  margin: 0 250px;
   padding: 0 20px;
   text-align: right;
   justify-content: flex-end;

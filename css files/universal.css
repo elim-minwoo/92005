@@ -8,26 +8,27 @@
   text-shadow: 0 0 10px #000;
 }
 
-h1, h2, h3, p { 
+h1, h2, h3, p { /* text elements */
   color: white;
 }
 
-h1 {
+h1 { /* content title */
   font-size: 25px;
 }
 
-h2 {
+h2 { /* paragraph title */
   font-size: 19px;
 }
 
-p {
+p { /* plain text */
   font-family: 'Tecnica';
   line-height: 1.9;
   font-size: 18px;
   text-align: justify;
+  letter-spacing: 0.5px;
 }
 
-.img_background {
+.img_background { /* image content bg */
   position: relative;
   width: 100%;
   background-size: cover;
@@ -36,7 +37,7 @@ p {
   overflow: hidden;
 }
 
-.img_background::before {
+.img_background::before { /* image content bg gradient */
   content: "";
   position: absolute;
   inset: 0;
