@@ -58,3 +58,8 @@
     float: right;
     height: auto;
 }
+
+.left_layout p,
+.right_layout p {
+    line-height: 1.9;
+}

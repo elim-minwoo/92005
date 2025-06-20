@@ -1,7 +1,8 @@
 
 .month {
+    /* section (seperated by months) */
     margin-bottom: 40px;
-    padding: 10px 300px;
+    padding: 10px 400px;
 }
 
 h1, h2 {
@@ -12,16 +13,13 @@ h3 {
     font-family: 'Tecnica';
 }
 
-.month > header {
-    font-size: 14px;
-    letter-spacing: 2px;
-    color: var(--white);
-    margin-bottom: 5px;
+p {
+    line-height: 1.3;
 }
 
 .month_line {
     height: 1px;
-    background-color: #333;
+    background-color: #555;
     margin-top: 5px;
     margin-bottom: 20px;
 }
@@ -41,7 +39,7 @@ h3 {
 }
 
 .main_meta{
-    margin-bottom: 60px;
+    margin-bottom: 15px;
 }
 
 .meta {
@@ -50,17 +48,21 @@ h3 {
     bottom: 10px;
 }
 
-.video {
+.visual {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 80px;
     align-items: flex-start;
 }
 
-.video > div {
-    width: 300px;
-    height: 170px;
+.visual > div {
+    flex: 1;
+}
+
+.visual .video {
+    width: 30%;
+    height: auto;
     border-radius: 8px;
     flex-shrink: 0;
-    margin-left: auto;
+    margin-left: 0;
 }

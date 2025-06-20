@@ -45,11 +45,12 @@ h2 {
 p {
     /* plain text */
     font-family: 'Tecnica';
-    line-height: 1.9;
     font-size: 18px;
     text-align: justify;
     letter-spacing: 0.5px;
 }
+
+.con
 
 .img_background {
     /* image content bg */
