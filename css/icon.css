@@ -23,7 +23,11 @@
     opacity: 0;
 }
 
-.head_icon:hover {
+.head_icon:hover .open_img {
     /* head icon hover */
     opacity: 1;
+}
+
+.head_icon:hover .closed_img {
+    opacity: 0;
 }
