@@ -41,7 +41,7 @@
   display: flex;
   align-items: flex-start;
   gap: 100px;
-  margin: 0 110px;
+  margin: 0 150px;
   padding: 0 20px;
   text-align: right;
   justify-content: flex-end;
@@ -56,9 +56,3 @@
   float: right;
   height: auto;
 }
-
-.left_layout, .right_layout{
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
