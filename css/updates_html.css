@@ -1,0 +1,51 @@
+
+.month {
+    margin-bottom: 40px;
+    padding: 300px;
+}
+
+h1, h2 {
+    font-family: 'Recept';;
+}
+
+h3 {
+    font-family: 'Tecnica';
+}
+
+.month > header {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: var(--white);
+    margin-bottom: 5px;
+}
+
+.month_line {
+    height: 1px;
+    background-color: #333;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.update {
+    background: #101016;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.update h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.main_meta{
+    margin-bottom: 60px;
+}
+
+.meta {
+    size: 12px;
+    color: #888;
+    bottom: 10px;
+}
