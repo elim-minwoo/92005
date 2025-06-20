@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .img_background {
+            /* image content bg */
+            position: relative;
+            width: 100%;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+        }
+
+        .img_background::before {
+            /* image content bg gradient */
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom,
+                    rgba(0, 0, 0, 0.8) 0%,
+                    rgba(0, 0, 0, 0.6) 10%,
+                    rgba(0, 0, 0, 0.5) 20%,
+                    rgba(0, 0, 0, 0.3) 30%,
+                    rgba(0, 0, 0, 0) 40%,
+                    rgba(0, 0, 0, 0) 60%,
+                    rgba(0, 0, 0, 0.3) 70%,
+                    rgba(0, 0, 0, 0.5) 80%,
+                    rgba(0, 0, 0, 0.6) 90%,
+                    rgba(0, 0, 0, 0.8) 100%);
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="img_background" style="background-image: url('image file goes here'); height: 400px;"></div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .hero_container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+
+        .hero {
+            /* hero image css for other pages */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            pointer-events: none;
+        }
+
+        .hero_overlay {
+            /* black overlay for hero */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background: rgba(0, 0, 0, 0.5);
+            pointer-events: none;
+            z-index: 1;
+        }
+
+        #main_logo {
+            /* main logo css */
+            position: fixed;
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 700px;
+            z-index: 2;
+            pointer-events: none;
+        }
+
+        #main_text {
+            /* main text css */ 
+            position: fixed;
+            top: 40%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: auto;
+            z-index: 2;
+            pointer-events: none;
+            color: white; /* desired font color */
+            font-size: 80px;
+            text-align: center;
+        }
+
+        #title_upt {
+            /* update page title */
+            top: 62vh;
+            font-size: 25px;
+            z-index: 15;
+        }
+
+        #title_tut {
+            /* tutorial page title */
+            top: 38vh;
+            font-size: 28px;
+            z-index: 15;
+        }
+
+        #title_down {
+            /* download page title */
+            top: 64vh;
+            font-size: 18px;
+            z-index: 15;
+        }
+
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="hero_container"> <!-- hero video -->
+            <video autoplay muted loop class="hero">
+                <source src="video file here" type="video/mp4" />
+                <!-- <img src="image file goeshere"> --> <!-- image if preferred -->
+            </video>
+
+            <div class="hero_overlay"></div> <!-- black overlay -->
+
+            <img src="logo file here" id="main_logo" alt="main logo"> <!-- main logo -->
+            <!-- <h1 id="main_text">MAIN TEXT HERE</h1> --> <!-- main text if preferred -->
+        </div>
+
+        <div class="content_shadow"></div>
+    </main>
+
+</body>
+
+</html>
