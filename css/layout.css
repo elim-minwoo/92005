@@ -1,58 +1,60 @@
-
 /* === layout css ===*/
 
-.center { /* center text */
-  margin: auto;
-  width: 50%;
-  text-align: center;
+.center {
+    /* center text */
+    margin: auto;
+    width: 50%;
+    text-align: center;
 }
 
 .title_center {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-  align-items: center;
-  text-align: center;
-  z-index: 11;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    z-index: 11;
 }
 
-.left_layout { /* left layout */
-  display: flex;
-  align-items: flex-start;
-  gap: 100px;
-  margin: 0 200px;
-  padding: 0 20px;
-  text-align: left;
+.left_layout {
+    /* left layout */
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+    margin: 0 200px;
+    padding: 0 20px;
+    text-align: left;
 }
 
 .left_layout h2 {
-  margin-top: 15px;
-  margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .left_layout.img {
-  float: left;
-  height: auto;
+    float: left;
+    height: auto;
 }
 
-.right_layout { /* right layout */
-  display: flex;
-  align-items: flex-start;
-  gap: 100px;
-  margin: 0 250px;
-  padding: 0 20px;
-  text-align: right;
-  justify-content: flex-end;
+.right_layout {
+    /* right layout */
+    display: flex;
+    align-items: flex-start;
+    gap: 100px;
+    margin: 0 250px;
+    padding: 0 20px;
+    text-align: right;
+    justify-content: flex-end;
 }
 
 .right_layout h2 {
-  margin-top: 20px;
-  margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .right_layout.img {
-  float: right;
-  height: auto;
+    float: right;
+    height: auto;
 }

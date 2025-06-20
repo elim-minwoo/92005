@@ -1,58 +1,65 @@
-
 /* === universal css ===*/
 
-* { /* universal css */
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  text-shadow: 0 0 10px #000;
+* {
+    /* universal css */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-shadow: 0 0 10px #000;
 }
 
-h1, h2, h3, p { /* text elements */
-  color: white;
+h1,
+h2,
+h3,
+p {
+    /* text elements */
+    color: white;
 }
 
-h1 { /* content title */
-  font-size: 25px;
+h1 {
+    /* content title */
+    font-size: 25px;
 }
 
-h2 { /* paragraph title */
-  font-size: 19px;
+h2 {
+    /* paragraph title */
+    font-size: 19px;
 }
 
-p { /* plain text */
-  font-family: 'Tecnica';
-  line-height: 1.9;
-  font-size: 18px;
-  text-align: justify;
-  letter-spacing: 0.5px;
+p {
+    /* plain text */
+    font-family: 'Tecnica';
+    line-height: 1.9;
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 0.5px;
 }
 
-.img_background { /* image content bg */
-  position: relative;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
+.img_background {
+    /* image content bg */
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
-.img_background::before { /* image content bg gradient */
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.8) 0%,
-    rgba(0, 0, 0, 0.6) 10%,
-    rgba(0, 0, 0, 0.5) 20%,
-    rgba(0, 0, 0, 0.3) 30%,
-    rgba(0, 0, 0, 0) 40%,
-    rgba(0, 0, 0, 0) 60%,
-    rgba(0, 0, 0, 0.3) 70%,
-    rgba(0, 0, 0, 0.5) 80%,
-    rgba(0, 0, 0, 0.6) 90%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
-  pointer-events: none;
+.img_background::before {
+    /* image content bg gradient */
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.8) 0%,
+            rgba(0, 0, 0, 0.6) 10%,
+            rgba(0, 0, 0, 0.5) 20%,
+            rgba(0, 0, 0, 0.3) 30%,
+            rgba(0, 0, 0, 0) 40%,
+            rgba(0, 0, 0, 0) 60%,
+            rgba(0, 0, 0, 0.3) 70%,
+            rgba(0, 0, 0, 0.5) 80%,
+            rgba(0, 0, 0, 0.6) 90%,
+            rgba(0, 0, 0, 0.8) 100%);
+    pointer-events: none;
 }

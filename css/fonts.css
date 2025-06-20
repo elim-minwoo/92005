@@ -1,25 +1,29 @@
-
 /* === font css ===*/
 
-@font-face { /* recepts nf font */
-  font-family: 'recept';
-  src: url("../fonts/Recepts\ NF\ W01\ Regular.ttf");
+@font-face {
+    /* recepts nf font */
+    font-family: 'recept';
+    src: url("../fonts/Recepts\ NF\ W01\ Regular.ttf");
 }
 
-@font-face { /* tecnica Font */
-  font-family: 'tecnica';
-  src: url("../fonts/Tecnica\ Bold\ W01\ Regular.ttf");
+@font-face {
+    /* tecnica Font */
+    font-family: 'tecnica';
+    src: url("../fonts/Tecnica\ Bold\ W01\ Regular.ttf");
 }
 
 /*=== class assigned fonts ===*/
-.recept { /* assigned recepts font class */
-  font-family: 'recept';
+.recept {
+    /* assigned recepts font class */
+    font-family: 'recept';
 }
 
-.tecnica { /* assigned tecnica font class */
-  font-family: 'tecnica';
+.tecnica {
+    /* assigned tecnica font class */
+    font-family: 'tecnica';
 }
 
-.orange { /* orange text class */
-  color: #ea9f13;
+.orange {
+    /* orange text class */
+    color: #ea9f13;
 }

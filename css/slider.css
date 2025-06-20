@@ -1,41 +1,46 @@
-
-.slider_container { /* slider container */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px auto;
-  width: max-content;
+.slider_container {
+    /* slider container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: max-content;
 }
 
-.slider { /* slider css */
-  width: 900px;
-  height: 600px;
-  overflow: hidden;
-}     
-
-.slides { /* imgages */
-  display: flex;
-  transition: transform 0.5s ease;
+.slider {
+    /* slider css */
+    width: 900px;
+    height: 600px;
+    overflow: hidden;
 }
 
-.slides img { /* actual image css */
-  width: 900px;
-  height: 600px;
-  object-fit: contain;
-  flex-shrink: 0;
+.slides {
+    /* imgages */
+    display: flex;
+    transition: transform 0.5s ease;
 }
 
-button { /* button for slider */
-  background: none;
-  border: none;
-  font-size: 48px;
-  cursor: pointer;
-  color: #434343;
-  user-select: none;
-  padding: 0 12px;
+.slides img {
+    /* actual image css */
+    width: 900px;
+    height: 600px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
 
-button:hover { /* hover interaction */
-  color: #fff;
-  text-shadow: 0 0 5px #fff;
+button {
+    /* button for slider */
+    background: none;
+    border: none;
+    font-size: 48px;
+    cursor: pointer;
+    color: #434343;
+    user-select: none;
+    padding: 0 12px;
+}
+
+button:hover {
+    /* hover interaction */
+    color: #fff;
+    text-shadow: 0 0 5px #fff;
 }

@@ -1,5 +1,5 @@
-
-.head_icon { /* head icon in bottom left */
+.head_icon {
+    /* head icon in bottom left */
     position: fixed;
     bottom: 35px;
     left: 35px;
@@ -21,7 +21,8 @@
     opacity: 0;
 }
 
-.head_icon:hover .open_img { /* head icon hover */
+.head_icon:hover .open_img {
+    /* head icon hover */
     opacity: 1;
 }
 
