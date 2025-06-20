@@ -3,12 +3,12 @@
 
 @font-face { /* recepts nf font */
   font-family: 'recept';
-  src: url(fonts/Recepts\ NF\ W01\ Regular.ttf);
+  src: url("../fonts/Recepts\ NF\ W01\ Regular.ttf");
 }
 
 @font-face { /* tecnica Font */
   font-family: 'tecnica';
-  src: url(fonts/Tecnica\ Bold\ W01\ Regular.ttf);
+  src: url("../fonts/Tecnica\ Bold\ W01\ Regular.ttf");
 }
 
 /*=== class assigned fonts ===*/
