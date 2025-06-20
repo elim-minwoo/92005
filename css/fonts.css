@@ -25,5 +25,5 @@
 
 .orange {
     /* orange text class */
-    color: #ea9f13;
+    color: var(--orange);
 }

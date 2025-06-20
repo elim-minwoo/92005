@@ -1,5 +1,7 @@
+/* === footer css ===*/
 
-footer .gray_bg, footer .navy_bg {
+footer .gray_bg,
+footer .nav_bg {
     /* footer */
     padding: 50px 200px 40px 200px;
     display: flex;
@@ -37,27 +39,27 @@ footer .gray_bg, footer .navy_bg {
 .social_icons svg {
     width: 100%;
     height: 100%;
-    fill: white;
+    fill: var(--white);
     transition: 0.1s;
 }
 
 #x:hover {
     /* social media icon hovering */
-    fill: #08a0e9;
+    fill: var(--twitter);
 }
 
 #twitch:hover {
-    fill: #9146ff;
+    fill: var(--twitch);
 }
 
 #youtube:hover {
-    fill: #ff0000;
+    fill: var(--ytube);
 }
 
 #steam:hover {
-    fill: #2a475e;
+    fill: var(--steam);
 }
 
 #discord:hover {
-    fill: #7289da;
+    fill: var(--discord);
 }

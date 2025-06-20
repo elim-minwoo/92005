@@ -53,20 +53,20 @@ nav ul li {
 nav ul li a {
     /* nav text css */
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     font-size: 16px;
     list-style: none;
     display: inline-block;
 }
 
 nav ul li a:hover {
-    color: #ea9f13;
-    text-shadow: 0 0 20px #fff;
+    color: var(--orange);
+    text-shadow: 0 0 20px var(--white);
 }
 
 nav ul li a.active {
     /* nav active text css */
-    color: #ea9f13;
+    color: var(--orange);
     font-size: 17px;
     font-weight: bold;
 }

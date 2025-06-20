@@ -1,3 +1,5 @@
+/* === slider css ===*/
+
 .slider_container {
     /* slider container */
     display: flex;
@@ -34,13 +36,13 @@ button {
     border: none;
     font-size: 48px;
     cursor: pointer;
-    color: #434343;
+    color: var(--button);
     user-select: none;
     padding: 0 12px;
 }
 
 button:hover {
     /* hover interaction */
-    color: #fff;
-    text-shadow: 0 0 5px #fff;
+    color: var(--white);
+    text-shadow: 0 0 5px;
 }

@@ -5,7 +5,23 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-shadow: 0 0 10px #000;
+    text-shadow: 0 0 10px var(--black);
+}
+
+:root {
+    --orange: #ea9f13;
+    --white: #fff;
+    --black: #000;
+
+    --bg-navy: #050309;
+    --bg-gray: #131317;
+    --button: #434343;
+
+    --twitter: #08a0e9;
+    --twitch: #9146ff;
+    --ytube: #ff0000;
+    --steam: #2a475e;
+    --discord: #7289da;
 }
 
 h1,
@@ -13,7 +29,7 @@ h2,
 h3,
 p {
     /* text elements */
-    color: white;
+    color: var(--white);
 }
 
 h1 {
