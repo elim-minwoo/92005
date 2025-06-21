@@ -6,6 +6,7 @@
     padding: 0px;
     box-sizing: border-box;
     text-shadow: 0 0 10px var(--black);
+    cursor: url('../assets/icon/cursor.png') 1 1, auto;
 }
 
 :root {
