@@ -6,18 +6,14 @@
     --line: #555
 }
 
-.section:nth-of-type {
-    background-color: var(--bg-navy);
-}
-
-.section:nth-of-type {
+.devide:nth-child(odd) {
     background-color: var(--bg-mid);
 }
 
+
 .devide {
     /* section (seperated by months) */
-    margin-bottom: 100px;
-    padding: 10px 400px;
+    padding: 80px 400px;
 }
 
 .devide:last-of-type {
