@@ -60,8 +60,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: var(--orange);
-    text-shadow: 0 0 20px var(--white);
+    text-shadow: 0 0 10px var(--white);
 }
 
 nav ul li a.active {

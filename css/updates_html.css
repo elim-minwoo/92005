@@ -1,8 +1,19 @@
 
+:root {
+    --upd-dark: #101016;
+    --upd-light: #34343f;
+    --meta: #888;
+    --line: #555
+}
+
 .devide {
-    /* section (seperated by time intervals) */
-    margin-bottom: 40px;
+    /* section (seperated by months) */
+    margin-bottom: 100px;
     padding: 10px 400px;
+}
+
+.devide:last-of-type {
+    margin-bottom: 0;
 }
 
 h1, h2 {
@@ -19,16 +30,22 @@ p {
 
 .devide_line {
     height: 1px;
-    background-color: #555;
+    background-color: var(--line);
     margin-top: 5px;
     margin-bottom: 20px;
 }
 
 .update {
-    background: #101016;
+    background: var(--upd-dark);
     border-radius: 12px;
     padding: 20px;
     margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.update:hover {
+    background: var(--upd-light);
+    box-shadow: 0 0 20px var(--w-glow);
 }
 
 .update h2 {
@@ -44,7 +61,7 @@ p {
 
 .meta {
     size: 12px;
-    color: #888;
+    color: var(--meta);
     bottom: 10px;
 }
 
@@ -67,6 +84,12 @@ p {
     flex-shrink: 0;
     overflow: hidden;
     margin-left: 0;
+    opacity: 0.5;
+}
+
+.visual .video:hover {
+    opacity: 1;
+    box-shadow: 0 0 5px var(--black);
 }
 
 .subhead {
