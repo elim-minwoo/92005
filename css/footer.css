@@ -3,7 +3,7 @@
 footer .gray_bg, 
 footer .navy_bg {
     /* footer */
-    padding: 50px 200px 40px 200px;
+    padding: 5vh 10vw 40px 200px;
     display: flex;
     align-items: center;
     position: relative;

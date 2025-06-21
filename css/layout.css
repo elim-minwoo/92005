@@ -23,14 +23,14 @@
     display: flex;
     align-items: flex-start;
     gap: 100px;
-    margin: 0 200px;
-    padding: 0 20px;
+    margin: 0 10vw;
+    padding: 0 2vw;
     text-align: left;
 }
 
 .left_layout h2 {
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2.5vh;
 }
 
 .left_layout.img {
@@ -43,15 +43,15 @@
     display: flex;
     align-items: flex-start;
     gap: 100px;
-    margin: 0 250px;
-    padding: 0 20px;
+    margin: 0 12vw;
+    padding: 0 2vw;
     text-align: right;
     justify-content: flex-end;
 }
 
 .right_layout h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
 }
 
 .right_layout.img {

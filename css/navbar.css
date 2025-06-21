@@ -18,7 +18,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90px;
+    height: 10vh;
     top: 0;
     left: 0;
     background: linear-gradient(to bottom,
@@ -35,7 +35,7 @@ nav::after {
     top: 90px;
     left: 0;
     width: 100%;
-    height: 100px;
+    height: 10vh;
     background: linear-gradient(to bottom,
             rgba(0, 0, 0, 0.5) 0%,
             rgba(0, 0, 0, 0.3) 50%,
@@ -47,7 +47,7 @@ nav ul li {
     /* nav text horizontal display */
     list-style: none;
     display: inline-block;
-    margin-left: 100px;
+    margin-left: 5vw;
 }
 
 nav ul li a {
