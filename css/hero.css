@@ -43,6 +43,7 @@
     width: 700px;
     z-index: 2;
     pointer-events: none;
+    filter: drop-shadow(1px 1px 20px var(--black))
 }
 
 #title_upt {

@@ -6,6 +6,14 @@
     --line: #555
 }
 
+.section:nth-of-type {
+    background-color: var(--bg-navy);
+}
+
+.section:nth-of-type {
+    background-color: var(--bg-mid);
+}
+
 .devide {
     /* section (seperated by months) */
     margin-bottom: 100px;
@@ -16,11 +24,11 @@
     margin-bottom: 0;
 }
 
-h1, h2 {
+h1 {
     font-family: 'Recept';;
 }
 
-h3 {
+h2, h3 {
     font-family: 'Tecnica';
 }
 
@@ -45,12 +53,13 @@ p {
 
 .update:hover {
     background: var(--upd-light);
-    box-shadow: 0 0 20px var(--w-glow);
+    box-shadow: 0 0 7px var(--w-glow);
 }
 
 .update h2 {
-    font-size: 16px;
     font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 25px;
     margin-top: 5px;
     margin-bottom: 15px;
 }

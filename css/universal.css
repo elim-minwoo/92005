@@ -13,10 +13,11 @@
     --white: #fff;
     --black: #000;
 
-    --w-glow: rgba(255, 255, 255, 0.2);
+    --w-glow: rgba(255, 255, 255, 0.404);
     --b-glow: rgba(0, 0, 0, 0.2);
 
     --bg-navy: #050309;
+    --bg-mid: #0c0814;
     --bg-gray: #131317;
     --button: #434343;
 
@@ -52,8 +53,6 @@ p {
     text-align: justify;
     letter-spacing: 0.5px;
 }
-
-.con
 
 .img_background {
     /* image content bg */

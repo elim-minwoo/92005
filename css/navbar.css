@@ -59,8 +59,8 @@ nav ul li a {
     display: inline-block;
 }
 
-nav ul li a:hover {
-    text-shadow: 0 0 10px var(--white);
+nav ul li a:not(.active):hover {
+    text-shadow: 0 0 20px var(--white);
 }
 
 nav ul li a.active {
@@ -73,4 +73,8 @@ nav ul li a.active {
 #nav_logo {
     /* navbar page logo */
     width: 200px;
+}
+
+#nav_logo:hover {
+    filter: drop-shadow(1px 1px 10px var(--w-glow))
 }
