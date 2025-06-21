@@ -1,6 +1,8 @@
 
+/* navsounds for other pages */
+
 document.addEventListener('DOMContentLoaded', () => {
-    const navHover = new Audio('assets/audio/hover_sfx.mp3');
+    const navHover = new Audio('../assets/audio/hover_sfx.mp3');
     navHover.volume = 0.5;
     navHover.load();
 
