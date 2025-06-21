@@ -1,15 +1,15 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-    const navHover = new Audio('assets/audio/hover_sfx.mp3');
-    navHover.volume = 0.5;
-    navHover.load();
+    const audioHover = new Audio('assets/audio/hover_sfx.mp3');
+    audioHover.volume = 0.5;
+    audioHover.load();
 
-    const navLinks = document.querySelectorAll('nav ul li a:not(.active)');
+    const navLinks = document.querySelectorAll('nav ul li a:not(.active), #nav_logo, button');
 
     navLinks.forEach(link => {
         link.addEventListener('mouseenter', () => {
-            navHover.currentTime = 0;
-            navHover.play();
+            audioHover.currentTime = 0;
+            audioHover.play();
         });
     });
 });

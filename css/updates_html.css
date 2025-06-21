@@ -6,17 +6,17 @@
     --line: #555
 }
 
-.devide:nth-child(odd) {
+.divide:nth-child(odd) {
     background-color: var(--bg-mid);
 }
 
 
-.devide {
+.divide {
     /* section (seperated by months) */
     padding: 5vh 20vw;
 }
 
-.devide:last-of-type {
+.divide:last-of-type {
     margin-bottom: 0;
 }
 
@@ -32,7 +32,7 @@ p {
     line-height: 1.3;
 }
 
-.devide_line {
+.divide_line {
     height: 1px;
     background-color: var(--line);
     margin-top: 5px;
