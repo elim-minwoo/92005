@@ -1,10 +1,10 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     const audioHover = new Audio('assets/audio/hover_sfx.mp3');
-    audioHover.volume = 0.5;
+    audioHover.volume = 0.3;
     audioHover.load();
 
-    const navLinks = document.querySelectorAll('nav ul li a:not(.active), #nav_logo, button');
+    const navLinks = document.querySelectorAll('nav ul li a:not(.active), #nav_logo, button, .head_icon');
 
     navLinks.forEach(link => {
         link.addEventListener('mouseenter', () => {
