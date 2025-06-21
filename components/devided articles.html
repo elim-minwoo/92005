@@ -18,14 +18,8 @@
             padding: 10px 400px;
         }
 
-        h1,
-        h2 {
-            font-family: 'Recept';
-            ;
-        }
-
-        h3 {
-            font-family: 'Tecnica';
+        .devider:last-of-type {
+            margin-bottom: 0;
         }
 
         p {
@@ -40,17 +34,28 @@
         }
 
         .update {
-            background: #101016;
+            background: #000;
             border-radius: 12px;
             padding: 20px;
             margin-bottom: 20px;
+            transition: 0.3s;
+        }
+
+        .update:hover {
+            background: var(--upd-light);
+            box-shadow: 0 0 7px var(--w-glow);
         }
 
         .update h2 {
-            font-size: 16px;
+            font-size: 25px;
             font-weight: bold;
             margin-top: 5px;
             margin-bottom: 15px;
+        }
+
+        .update:hover {
+            background: #333;
+            box-shadow: 0 0 7px #fff;
         }
 
         .main_meta {
@@ -83,6 +88,12 @@
             flex-shrink: 0;
             overflow: hidden;
             margin-left: 0;
+            opacity: 0.5;
+        }
+
+        .visual .video:hover {
+            opacity: 1;
+            box-shadow: 0 0 5px var(--black);
         }
 
         .subhead {
@@ -109,7 +120,8 @@
                     <h2>CONTENT NAME HERE</h2>
                     <h3 class="main_meta meta">meta text here</h3>
                     <p><span class="subhead">subheading here</span><br>
-                        example text example text example text example text example text example text example text example text example text example text </p>
+                        example text example text example text example text example text example text example text
+                        example text example text example text </p>
                 </div>
                 <iframe class="video" src="https://www.youtube.com/embed/youtube link here" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
