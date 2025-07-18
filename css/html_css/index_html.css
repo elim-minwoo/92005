@@ -1,0 +1,15 @@
+/* === index page css ===*/
+
+.museum_update h1 {
+    font-size: 5rem;
+    padding-top: 150px;
+    padding-bottom: 70px;
+}
+
+.museum_update iframe {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0 0 20px var(--black);
+}
