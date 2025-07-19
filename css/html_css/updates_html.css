@@ -5,7 +5,7 @@
     --upd-light: #34343f;
     --upd-main: #332f22;
     --main-hover: #3f3926;
-    --dark-orange: #aa8136;
+    --dark-orange: #92691d;
     --meta: #888;
 }
 
@@ -16,7 +16,16 @@
 
 .divide {
     /* section (seperated by months) */
-    padding: 5vh 20vw;
+    
+    padding: 7vh 20vw;
+
+    /*
+    padding-top: 7vh;
+    padding-bottom: 7vh;
+    padding-left: 25vw;
+    padding-right: 10vw;
+    later for timeline addition
+    */
 }
 
 .divide:last-of-type {

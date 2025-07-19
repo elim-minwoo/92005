@@ -49,7 +49,6 @@ section h1 {
 }
 
 section #teaser_trailer {
-    display: flex;
     position: relative;
     width: 100%;
     height: 500px;
@@ -59,8 +58,8 @@ section #teaser_trailer {
 }
 
 .banner {
-    clip-path: inset(300px 0 0 0);
-    overflow: hidden;
+    height: 25vh;
+    background-position: center 80%;
 }
 
 .divide_line {

@@ -1,15 +1,29 @@
 /* === index page css ===*/
 
+.museum_update {
+    padding-bottom: 100px;
+}
+
 .museum_update h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     padding-top: 150px;
     padding-bottom: 70px;
 }
 
+.museum_update .banner {
+    margin-bottom: 10vh;
+    height: 33vh;
+    background-size: cover;
+    background-position: center 20%;
+    opacity: 0.4;
+} 
+
 .museum_update iframe {
-    display: flex;
+    display: block;
     position: relative;
     width: 100%;
     height: 500px;
     box-shadow: 0 0 20px var(--black);
+    margin: 0;
 }
+
